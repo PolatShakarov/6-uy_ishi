@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body style="background-color: white;">
+    <div class="container my-5">
+        <h2 class="heading text-center p-6">OB-HAVO MA'LUMOTLARI</h2>
+        <form class="subject" action="https://echo.htmlacademy.ru/">
+                <div class="celsius">
+                    <div class="form-control m-4 p-3 text-center bg-primary">Celsius temperature</div>
+                    <input class="celsius__input form-control m-4 p-3" type="text" id="temperature" placeholder="°C" type="text">
+                </div>
+                <div class="celsius">
+                    <div class="form-control m-4 p-3 text-center bg-primary">Fahrenheit temperature</div>
+                    <input class="fahrenheit__input form-control m-4 p-3" type="text" id="temperature" placeholder="°F" type="text">
+                </div>
+                <button class="form-control h1 btn btn-primary" type="submit">⟲ Convert</button>
+        </form>
+        <h2 class="heading text-center p-6 my-5">VALYUTALAR KURSI</h2>
+        <form class="form" action="https://echo.htmlacademy.ru/">
+           
+            <input class="input sum p-3" placeholder="valyutalar qiymati" type="text">
+            
+            
+            <div class="result">
+                <select class="question-type p-3" name="question_type" required>
+                    <option class="lira" >₺ LIRA</option>
+                </select>
+                <input class="sum2 result p-3 my-3 mx-1" placeholder="So'm" type="text">
+            </div>
+            <div class="result">
+                <select class="question-type p-3" name="question_type" required>
+                    <option class="lira" value="question1">$ USSD</option>
+                </select>
+                <input class="sum3 result p-3 my-3 mx-1" placeholder="So'm" type="text">
+            </div>
+            <div class="result">
+                <select class="question-type p-3" name="question_type" required>
+                    <option class="lira" value="question1">€ EURO</option>
+                </select>
+                <input class="sum4 result p-3 my-3 mx-1" placeholder="So'm" type="text">
+            </div>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
